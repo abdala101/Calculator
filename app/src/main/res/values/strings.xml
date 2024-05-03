@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="Calculator">Welcome to My CalcTool System</string>
+    <string name="app">Calculator System: Software for performing math calculations with user-friendly input and result display.</string>
+</resources>
