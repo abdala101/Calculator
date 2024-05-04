@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val cal=findViewById<TextView>(R.id.cal_tv)
+        //val cal=findViewById<TextView>(R.id.cal_tv)
         val text=findViewById<TextView>(R.id.text_tv)
         val input1=findViewById<EditText>(R.id.number_et)
         val input2=findViewById<EditText>(R.id.number2_et)
@@ -135,8 +135,8 @@ class MainActivity : AppCompatActivity() {
                     {
                         //display.text=div1/div1
                         //display.text="Isku Qaybintuna way shaqaynaysaa"
-                        val result = div1.toFloat() / div2.toFloat()
-                        if (div2.toFloat() == 0f) {
+                        val result = div1.toInt() / div2.toInt()
+                        if (div2.toInt() == 0) {
                             display.text = "Cannot divide by zero"
                         } else {
                             display.text = "The Division BETWEEN $div1 and $div2 is: $result"

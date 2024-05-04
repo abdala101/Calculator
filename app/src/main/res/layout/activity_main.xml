@@ -7,19 +7,28 @@
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:id="@+id/cal_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Calculator"
-        android:textColor="@color/design_default_color_primary"
-        android:textSize="60px"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.396"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.094" />
+<!--    <TextView-->
+<!--        android:id="@+id/cal_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/Calculator"-->
+<!--        android:textColor="@color/design_default_color_primary"-->
+<!--        android:textSize="60px"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.396"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.094" />-->
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="463dp"
+        android:layout_height="108dp"
+        android:textAlignment="center"
+        android:src="@drawable/baseline_calculate_24"
+        app:layout_constraintBottom_toTopOf="@+id/text_tv"
+        tools:layout_editor_absoluteX="-68dp" />
 
     <TextView
         android:id="@+id/text_tv"
